@@ -6,3 +6,64 @@ h4 {
 .socialMedia {
   text-align: center;
 }
+
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+.img-rounded {
+  display: inline;
+  float: left;
+  background-image: url("http://www.urdogs.com/wp-content/uploads/2015/07/7-2-2015-1-52-50-PM.jpg");
+  width:25%;
+  height:auto;
+
+  /* div height = width*/
+  padding-top:25%;
+
+  /* circular */
+  border-radius:50%;
+
+  /* center on image center*/
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.red {
+  background: #F64747;
+}
+
+.purple {
+  background: #674172;
+}
+
+.ltBlue {
+  background: #5C97BF;
+}
+
+.mdBlue {
+  background: #2574A9;
+}
+
+.dkBlue {
+  background: #22313F;
+}
+
+.ltGreen {
+  background: #36D7B7;
+}
+
+.mdGreen {
+  background: #1BBC9B;
+}
+
+.yellow {
+  background: #F4B350;
+}
+
+.orange {
+  background: #F27935;
+}
