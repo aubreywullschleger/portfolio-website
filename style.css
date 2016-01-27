@@ -1,21 +1,45 @@
+body, .bodyBackground {
+  background: #D2D7D3;
+}
+
+.well, .thumbnail {
+  background: #ABB7B7;
+}
+
+.cargoIcon {
+  height: 7vh;
+  margin: -1vw;
+  margin-bottom: 0.5vh;
+}
+
 h4 {
   display: inline;
   padding-right: 3vw;
+}
+
+.insta {
+  padding-right: 0vw;
 }
 
 .socialMedia {
   text-align: center;
 }
 
+.parentRow {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .vcenter {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .img-rounded {
   display: inline;
   float: left;
-  background-image: url("http://www.urdogs.com/wp-content/uploads/2015/07/7-2-2015-1-52-50-PM.jpg");
+  background-image: url("./media/proPhoto.jpg");
   width:25%;
   height:auto;
 
