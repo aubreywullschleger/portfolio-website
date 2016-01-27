@@ -1,9 +1,24 @@
-body, .bodyBackground {
-  background: #D2D7D3;
+* {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+body, .bodyContainer  {
+  /*background-image: url('http://samsung-wallpapers.com/uploads/allimg/140531/1-1405311J451.jpg');
+  background-size: cover no-repeat;
+  background-position-x: 45%;*/
+  background: #ffffff;
 }
 
 .well, .thumbnail {
-  background: #ABB7B7;
+  background:  white;
+  border: 5px solid black;
+  /*opacity: 0.75;*/
+}
+
+.navbar {
+  background: #000000;
 }
 
 .cargoIcon {
@@ -12,9 +27,29 @@ body, .bodyBackground {
   margin-bottom: 0.5vh;
 }
 
+h2, h3, h4 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+a {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+}
+
 h4 {
   display: inline;
   padding-right: 3vw;
+}
+
+.btn {
+  background: #B82601;
+  margin-bottom: 1vw;
+}
+
+.btn-danger {
+  background: #813772;
 }
 
 .insta {
@@ -54,40 +89,4 @@ h4 {
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.red {
-  background: #F64747;
-}
-
-.purple {
-  background: #674172;
-}
-
-.ltBlue {
-  background: #5C97BF;
-}
-
-.mdBlue {
-  background: #2574A9;
-}
-
-.dkBlue {
-  background: #22313F;
-}
-
-.ltGreen {
-  background: #36D7B7;
-}
-
-.mdGreen {
-  background: #1BBC9B;
-}
-
-.yellow {
-  background: #F4B350;
-}
-
-.orange {
-  background: #F27935;
 }
