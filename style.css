@@ -5,21 +5,29 @@
 }
 
 body, .bodyContainer  {
-  /*background-image: url('http://samsung-wallpapers.com/uploads/allimg/140531/1-1405311J451.jpg');
-  background-size: cover no-repeat;
-  background-position-x: 45%;*/
   background: #ffffff;
 }
 
 .well, .thumbnail {
   background:  white;
   border: 5px solid black;
-  /*opacity: 0.75;*/
 }
 
-.navbar {
-  background: #000000;
+.navbar, .dropdown-menu {
+  background: #22316C;
 }
+
+button.navbar-toggle.collapsed.pull-left:hover,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-form {
+  background: #162252;
+}
+
+.navbar-inverse .navbar-collapse {
+  border-color: #162252;
+}
+
 
 .cargoIcon {
   height: 7vh;
@@ -36,6 +44,29 @@ h2, h3, h4 {
 a {
   font-family: 'Muli', sans-serif;
   font-weight: 400;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav .open
+.dropdown-menu>li>a:hover {
+  background: #162252;
+}
+
+
+a.btn.btn-primary:hover {
+  background: #96281B;
+}
+
+a.btn.btn-danger:hover {
+  background: #674172;
+}
+
+.caret {
+  color: #ffffff;
 }
 
 h4 {
