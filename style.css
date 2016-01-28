@@ -28,14 +28,7 @@ button.navbar-toggle.collapsed.pull-left:hover,
   border-color: #162252;
 }
 
-
-.cargoIcon {
-  height: 7vh;
-  margin: -1vw;
-  margin-bottom: 0.5vh;
-}
-
-h2, h3, h4 {
+h2, h3, h4, h5 {
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
   color: #000000;
@@ -56,13 +49,18 @@ a {
   background: #162252;
 }
 
-
 a.btn.btn-primary:hover {
   background: #96281B;
 }
 
 a.btn.btn-danger:hover {
   background: #674172;
+}
+
+a.designPortfolioLink {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color: #813772;
 }
 
 .caret {
